@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500');
+
+body {
+  font-family: 'Rubik', sans-serif;
+
+}
+canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#instructions {
+  margin-left: 10px;
+  font-size: 16px;
+}
+#scoreboard-container {
+  float: left;
+  width: 300px;
+  background-color: #E4EBED;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+#scoreboard-title {
+  color: #193A45;
+}
+
+dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+dt {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+dd {
+  float: left;
+  width: calc(50% - 10px);
+  padding: 0 0 0 10px;
+  margin: 0;
+}
+
+#new-game-btn {
+  background-color: #E4EBED;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #193A45;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
